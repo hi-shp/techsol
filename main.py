@@ -5,7 +5,6 @@ from flask import Flask, render_template_string, request, redirect, url_for
 from werkzeug.utils import secure_filename
 import os
 import pyperclip
-
 from extractor import extract_text_from_image
 from gpt_query import query_gpt
 from database import save_to_database, init_db
@@ -106,7 +105,7 @@ def run_result_server():
         <body>
             <h1>Extracted Text</h1>
             <p>{extracted_text}</p>
-            <h2>GPT-4 Result</h2>
+            <h2>GPT Result</h2>
             <p id="gpt-result">{gpt_result}</p>
             <script type="text/javascript">
                 document.addEventListener("DOMContentLoaded", function() {{
