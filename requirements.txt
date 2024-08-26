@@ -1,0 +1,6 @@
+Flask
+pyautogui
+pyperclip
+keyboard
+python-dotenv
+selenium
