@@ -3,7 +3,7 @@
 
 .env 코드에서
 -> mathpix id, pw 입력
--> chatgpt api key 입력
+-> chatgpt api key 입력 (현재 버전에서 필요하진 않음)
 
 requirements.txt 따라서
 -> 필요한 라이브러리 설치
