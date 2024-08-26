@@ -6,7 +6,7 @@
 -> chatgpt api key 입력 (현재 버전에서 필요하진 않음)  
 
 requirements.txt 따라서  
--> 필요한 라이브러리 설치  
+-> 필요한 라이브러리 설치(루트 디렉토리에서 pip install -r requirements.txt 입력하면 됩니다.)  
 
 mathpix는 셀레니움으로 열어서 요소 찾는 거라 따로 설정 필요없고,   
 chatgpt는 미리 창을 띄워놓고(크롬 기준 맨 오른쪽, 마지막에 오도록) alt tab으로 넘어가게 한 거라서  
